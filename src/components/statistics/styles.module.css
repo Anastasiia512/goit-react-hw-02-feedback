@@ -1,0 +1,11 @@
+.statlist {
+  margin: 40px;
+}
+
+.statlistItem {
+  list-style: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 5px;
+}
