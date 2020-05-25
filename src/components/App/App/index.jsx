@@ -50,7 +50,7 @@ export default class App extends Component {
 
   countPositiveFeedbackPercentage = () => {
     this.setState(prevState => ({
-      percentage: (prevState.total / 100) * prevState.good,
+      percentage: (prevState.good * 100) / prevState.total ,
     }));
   };
 
