@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import Section from '../SectionTitle/index';
-import Statistics from '../statistics/statistics';
-import FeedbackOptions from '../feedbackOptions/FeedbackOptions';
-import Notification from '../notification/index';
+import Statistics from '../Statistics/statistics';
+import FeedbackOptions from '../FeedbackOptions/FeedbackOptions';
+import Notification from '../Notification/index';
 import {
   countTotalFeedback,
   countPositiveFeedbackPercentage,
